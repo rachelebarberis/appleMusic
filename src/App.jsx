@@ -14,11 +14,11 @@ function App() {
     <>
       <Container fluid={true}>
         <Row>
-          <Col md={2} className="d-none d-md-block p-0">
+          <Col md={2} className="d-none d-lg-block p-0">
             <NavbarMd />
           </Col>
           <Col md={10} className="ps-0 ms-0">
-            <div className="fluid d-none d-md-block ">
+            <div className="fluid d-none d-lg-block ">
               <PlayerMd />
             </div>
 

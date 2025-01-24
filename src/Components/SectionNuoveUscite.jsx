@@ -30,7 +30,7 @@ const SectionNuoveUscite = () => {
       </p>
       <Row>
         {songs.map((song) => (
-          <Col key={song.id} xs={4} md={2}>
+          <Col key={song.id} xs={4} lg={2}>
             <div className="mb-2">
               <img
                 src={song.album.cover_medium}

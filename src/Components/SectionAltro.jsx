@@ -5,7 +5,7 @@ const SectionAltro = () => {
     <Container fluid={true} className="mt-3">
       <p className="text-white fw-bold">Altro da Esplorare</p>
       <Row>
-        <Col md={4}>
+        <Col lg={4}>
           <div
             className="pt-3 ps-2 m-1 rounded-2"
             style={{ backgroundColor: "#2A2A2A" }}
@@ -23,7 +23,7 @@ const SectionAltro = () => {
             </Row>
           </div>
         </Col>
-        <Col md={4}>
+        <Col lg={4}>
           <div
             className="pt-3 ps-2 m-1 rounded-2"
             style={{ backgroundColor: "#2A2A2A" }}
@@ -41,7 +41,7 @@ const SectionAltro = () => {
             </Row>
           </div>
         </Col>
-        <Col md={4}>
+        <Col lg={4}>
           <div
             className="pt-3 ps-2 m-1 rounded-2"
             style={{ backgroundColor: "#2A2A2A" }}
@@ -59,7 +59,7 @@ const SectionAltro = () => {
             </Row>
           </div>
         </Col>
-        <Col md={4}>
+        <Col lg={4}>
           <div
             className="pt-3 ps-2 m-1 rounded-2 "
             style={{ backgroundColor: "#2A2A2A" }}
@@ -77,7 +77,7 @@ const SectionAltro = () => {
             </Row>
           </div>
         </Col>
-        <Col md={4}>
+        <Col lg={4}>
           <div
             className="pt-3 ps-2 m-1 rounded-2 "
             style={{ backgroundColor: "#2A2A2A" }}
@@ -95,7 +95,7 @@ const SectionAltro = () => {
             </Row>
           </div>
         </Col>
-        <Col md={4}>
+        <Col lg={4}>
           <div
             className="pt-3 ps-2 m-1 rounded-2 "
             style={{ backgroundColor: "#2A2A2A" }}
@@ -113,7 +113,7 @@ const SectionAltro = () => {
             </Row>
           </div>
         </Col>
-        <Col md={4}>
+        <Col lg={4}>
           <div
             className="pt-3 ps-2 m-1 rounded-2 "
             style={{ backgroundColor: "#2A2A2A" }}
@@ -131,7 +131,7 @@ const SectionAltro = () => {
             </Row>
           </div>
         </Col>
-        <Col md={4}>
+        <Col lg={4}>
           <div
             className="pt-3 ps-2 m-1 rounded-2 "
             style={{ backgroundColor: "#2A2A2A" }}
@@ -149,7 +149,7 @@ const SectionAltro = () => {
             </Row>
           </div>
         </Col>
-        <Col md={4}>
+        <Col lg={4}>
           <div
             className="pt-3 ps-2 m-1 rounded-2 "
             style={{ backgroundColor: "#2A2A2A" }}

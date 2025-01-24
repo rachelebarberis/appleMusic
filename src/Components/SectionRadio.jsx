@@ -8,7 +8,7 @@ const SectionRadio = () => {
         </p>
       </div>
       <Row>
-        <Col xs={4} md={2}>
+        <Col xs={4} lg={2}>
           <div>
             <img
               src="../public/assets/images/2a.png"
@@ -17,7 +17,7 @@ const SectionRadio = () => {
             <p className="text-white">Prologo con Abuelo</p>
           </div>
         </Col>
-        <Col xs={4} md={2}>
+        <Col xs={4} lg={2}>
           <div>
             <img
               src="../public/assets/images/2b.png"
@@ -26,7 +26,7 @@ const SectionRadio = () => {
             <p className="text-white">Prologo con Abuelo</p>
           </div>
         </Col>
-        <Col xs={4} md={2}>
+        <Col xs={4} lg={2}>
           <div>
             <img
               src="../public/assets/images/2c.png"
@@ -35,7 +35,7 @@ const SectionRadio = () => {
             <p className="text-white">Prologo con Abuelo</p>
           </div>
         </Col>
-        <Col xs={4} md={2}>
+        <Col xs={4} lg={2}>
           <div className="d-none d-md-block">
             <img
               src="../public/assets/images/2d.png"
@@ -44,7 +44,7 @@ const SectionRadio = () => {
             <p className="text-white">Prologo con Abuelo</p>
           </div>
         </Col>
-        <Col xs={4} md={2}>
+        <Col xs={4} lg={2}>
           <div className="d-none d-md-block">
             <img
               src="../public/assets/images/2e.png"
@@ -53,7 +53,7 @@ const SectionRadio = () => {
             <p className="text-white">Prologo con Abuelo</p>
           </div>
         </Col>
-        <Col xs={4} md={2}>
+        <Col xs={4} lg={2}>
           <div className="d-none d-md-block">
             <img
               src="../public/assets/images/2f.png"
