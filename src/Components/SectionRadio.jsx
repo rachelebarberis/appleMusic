@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 const SectionRadio = () => {
   return (
-    <Container>
+    <Container fluid={true}>
       <div className="mt-4">
         <p className="fw-bold text-white">
           Nuove uscite radio <i className="bi bi-chevron-right"></i>

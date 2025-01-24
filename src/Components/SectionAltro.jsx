@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const SectionAltro = () => {
   return (
-    <Container className="mt-3">
+    <Container fluid={true} className="mt-3">
       <p className="text-white fw-bold">Altro da Esplorare</p>
       <Row>
         <Col md={4}>

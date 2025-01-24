@@ -1,20 +1,30 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import { Container, Row, Col } from "react-bootstrap";
 import "./App.css";
 import SectionNovità from "./Components/SectionNovità";
 import SectionRadio from "./Components/SectionRadio";
 import SectionAltro from "./Components/SectionAltro";
 import Footer from "./Components/Footer";
 import SectionNuoveUscite from "./Components/SectionNuoveUscite";
+import NavbarMd from "./Components/Navbarmd";
 
 function App() {
   return (
     <>
-      <SectionNovità />
-      <SectionRadio />
-      <SectionNuoveUscite />
-      <SectionAltro />
-      <Footer />
+      <Container fluid={true}>
+        <Row>
+          <Col md={2} className="d-none d-md-block p-0">
+            <NavbarMd />
+          </Col>
+          <Col md={10} className="ps-0 ms-0">
+            <SectionNovità />
+            <SectionRadio />
+            <SectionNuoveUscite />
+            <SectionAltro />
+          </Col>
+        </Row>
+        <Footer />
+      </Container>
     </>
   );
 }
