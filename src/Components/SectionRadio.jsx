@@ -23,7 +23,7 @@ const SectionRadio = () => {
               src="../public/assets/images/2b.png"
               className="img-fluid rounded-2"
             />
-            <p className="text-white">Prologo con Abuelo</p>
+            <p className="text-white">Feel More</p>
           </div>
         </Col>
         <Col xs={4} lg={2}>
@@ -32,7 +32,7 @@ const SectionRadio = () => {
               src="../public/assets/images/2c.png"
               className="img-fluid rounded-2"
             />
-            <p className="text-white">Prologo con Abuelo</p>
+            <p className="text-white">Micheal Bublè</p>
           </div>
         </Col>
         <Col xs={4} lg={2}>
@@ -41,7 +41,7 @@ const SectionRadio = () => {
               src="../public/assets/images/2d.png"
               className="img-fluid rounded-2 "
             />
-            <p className="text-white">Prologo con Abuelo</p>
+            <p className="text-white">Stephan Moccio</p>
           </div>
         </Col>
         <Col xs={4} lg={2}>
@@ -50,7 +50,7 @@ const SectionRadio = () => {
               src="../public/assets/images/2e.png"
               className="img-fluid rounded-2 "
             />
-            <p className="text-white">Prologo con Abuelo</p>
+            <p className="text-white">Julia Michaels</p>
           </div>
         </Col>
         <Col xs={4} lg={2}>
@@ -59,7 +59,7 @@ const SectionRadio = () => {
               src="../public/assets/images/2f.png"
               className="img-fluid rounded-2 "
             />
-            <p className="text-white">Prologo con Abuelo</p>
+            <p className="text-white">Mills</p>
           </div>
         </Col>
       </Row>
