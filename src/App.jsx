@@ -4,6 +4,7 @@ import "./App.css";
 import SectionNovità from "./Components/SectionNovità";
 import SectionRadio from "./Components/SectionRadio";
 import SectionAltro from "./Components/SectionAltro";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <SectionNovità />
       <SectionRadio />
       <SectionAltro />
+      <Footer />
     </>
   );
 }
