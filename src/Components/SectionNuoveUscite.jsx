@@ -24,7 +24,7 @@ const SectionNuoveUscite = () => {
   }, []);
 
   return (
-    <Container className="mt-3">
+    <Container className="mt-3 ms-5 ms-lg-0">
       <p className="text-white fw-bold">
         Nuove Uscite <i className="bi bi-chevron-right"></i>
       </p>

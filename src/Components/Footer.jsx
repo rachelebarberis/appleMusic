@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <Container className=" py-3 mt-auto">
+    <Container fluid={true} className=" py-3 mt-auto">
       <Row>
         <Col xs="auto" className="text-start mb-1">
           <span className="text-white">Italia</span>

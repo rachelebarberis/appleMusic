@@ -1,6 +1,6 @@
 import { Container, InputGroup, FormControl, Nav } from "react-bootstrap";
 
-const Sidebar = () => {
+const NavbarMd = () => {
   return (
     <Container
       fluid={true}
@@ -21,7 +21,7 @@ const Sidebar = () => {
 
       <InputGroup className="my-2">
         <InputGroup.Text className="bg-dark text-light border-secondary">
-          <i className="bi bi-search"></i>
+          <i className="bi bi-search" style={{ color: "#EB5465" }}></i>
         </InputGroup.Text>
         <FormControl
           placeholder="Cerca una canzone"
@@ -34,20 +34,23 @@ const Sidebar = () => {
           href="#"
           className="text-light d-flex align-items-center mb-2"
         >
-          <i className="bi bi-house-door me-2"></i> Home
+          <i className="bi bi-house-door me-2" style={{ color: "#EB5465" }}></i>{" "}
+          Home
         </Nav.Link>
         <Nav.Link
           href="#"
           className="text-light d-flex align-items-center mb-2"
         >
-          <i className="bi bi-grid me-2"></i> Novità
+          <i className="bi bi-grid me-2" style={{ color: "#EB5465" }}></i>{" "}
+          Novità
         </Nav.Link>
         <Nav.Link href="#" className="text-light d-flex align-items-center">
-          <i className="bi bi-broadcast me-2"></i> Radio
+          <i className="bi bi-broadcast me-2" style={{ color: "#EB5465" }}></i>{" "}
+          Radio
         </Nav.Link>
       </Nav>
     </Container>
   );
 };
 
-export default Sidebar;
+export default NavbarMd;

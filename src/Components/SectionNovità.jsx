@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 const SectionNovità = () => {
   return (
-    <Container fluid={true}>
+    <Container fluid={true} className="ms-5 ms-lg-0">
       <div style={{ borderBottom: "1px solid grey" }}>
         <h1 className="text-white text-start fw-bold">Novità</h1>
       </div>
