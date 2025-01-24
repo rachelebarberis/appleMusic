@@ -7,6 +7,7 @@ import SectionAltro from "./Components/SectionAltro";
 import Footer from "./Components/Footer";
 import SectionNuoveUscite from "./Components/SectionNuoveUscite";
 import NavbarMd from "./Components/Navbarmd";
+import PlayerMd from "./Components/PlayerMd";
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
             <NavbarMd />
           </Col>
           <Col md={10} className="ps-0 ms-0">
+            <div className="fluid d-none d-md-block ">
+              <PlayerMd />
+            </div>
+
             <SectionNovità />
             <SectionRadio />
             <SectionNuoveUscite />
